@@ -7,7 +7,7 @@ const app = express();
 const server = require('http').Server(app);
 const io = require('socket.io')(server);
 
-mongoose.connect("mongodb+srv://some_player:boasorte@cluster0-26kjo.mongodb.net/<dbname>?retryWrites=true&w=majority", {
+mongoose.connect("Mongo Atlas sharing link", {
     useNewUrlParser: true
 });
 
